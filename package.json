@@ -1,0 +1,55 @@
+{
+  "name": "@beamnetwork/storageslot-example",
+  "version": "1.0.0",
+  "description": "Example of using solidity storage slots.",
+  "main": "index.js",
+  "scripts": {
+    "format": "concurrently 'npm:format:*'",
+    "format:prettier": "prettier --write 'contracts/*.sol'",
+    "format:eslint": "eslint --fix 'test/**.js'",
+    "lint": "concurrently 'npm:lint:*'",
+    "lint:depcheck": "depcheck --ignore-dirs 'solidity' --ignore-bin-package --ignores prettier-plugin-solidity",
+    "lint:solhint": "solhint 'contracts/*.sol'",
+    "lint:solium": "solium -d contracts",
+    "lint:eslint": "eslint 'test/**.js'",
+    "lint:prettier": "prettier --check 'contracts/*.sol' 'test/*.sol'",
+    "build": "truffle compile",
+    "test": "truffle test",
+    "coverage": "solidity-coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeamNetwork/storageslot-example.git"
+  },
+  "keywords": [
+    "solidity",
+    "ethereum"
+  ],
+  "author": "Beam Engineering <eng@beam.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BeamNetwork/storageslot-example/issues"
+  },
+  "homepage": "https://github.com/BeamNetwork/storageslot-example#readme",
+  "devDependencies": {
+    "Ethlint": "BeamNetwork/Ethlint#storageslot",
+    "bn-chai": "^1.0.1",
+    "chai": "^4.2.0",
+    "codecov": "^3.5.0",
+    "concurrently": "^4.1.1",
+    "depcheck": "^0.8.3",
+    "eslint": "^6.0.1",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-chai-friendly": "^0.4.1",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-mocha": "^5.3.0",
+    "istanbul": "^0.4.5",
+    "prettier": "^1.18.2",
+    "prettier-plugin-solidity": "BeamNetwork/prettier-plugin-solidity#storageslot",
+    "solc": "github:BeamNetwork/solc-js#storageslot",
+    "solhint": "BeamNetwork/solhint#storageslot",
+    "solidity-coverage": "BeamNetwork/solidity-coverage#storageslot",
+    "truffle": "^5.0.27"
+  },
+  "dependencies": {}
+}

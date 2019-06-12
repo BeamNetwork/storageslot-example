@@ -1,0 +1,9 @@
+{
+    "extends": "solhint:recommended",
+    "rules": {
+      "indent": "off",
+      "max-line-length": "off",
+      "no-inline-assembly": "off",
+      "compiler-fixed": "off"
+   }
+}
