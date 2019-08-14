@@ -37,8 +37,8 @@ contract StorageSlotExample {
     uint256 public storage["io.beam.storageslot.a"] a;
 }
 ```
-This will use map element ```a``` to storage slot
-```keccak256('io.beam.storageslot.a')```
+This will use map element `a` to storage slot
+`keccak256('io.beam.storageslot.a')`.
 
 ## State
 
@@ -75,9 +75,9 @@ constract PackedExample {
    uint128 public b;
 }
 ```
-will store both elements in storage slot ```0```, with element b at a
+will store both elements in storage slot `0`, with element b at a
 128-bit offset. It is feasible to do the same with a slot specification,
-potentially something like ```uint128 public storage[0:128] b```. The only
+potentially something like `uint128 public storage[0:128] b`. The only
 known use-case is when retroactively adding storage slot specifiers to an
 already-deployed contract that uses less-than-256bit types. Is that
 sufficient motivation to add this extended syntax now?
