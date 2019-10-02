@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.com/BeamNetwork/storageslot-example.svg?token=poXnpmiA2RAigkqypVN5&branch=master)](https://travis-ci.com/BeamNetwork/storageslot-example)
-[![Coverage Status](https://coveralls.io/repos/github/BeamNetwork/storageslot-example/badge.svg?branch=master)](https://coveralls.io/github/BeamNetwork/storageslot-example?branch=master)
-[![codecov](https://codecov.io/gh/BeamNetwork/storageslot-example/branch/master/graph/badge.svg)](https://codecov.io/gh/BeamNetwork/storageslot-example)
+[![Build Status](https://travis-ci.com/eco/storageslot-example.svg?token=poXnpmiA2RAigkqypVN5&branch=master)](https://travis-ci.com/eco/storageslot-example)
+[![Coverage Status](https://coveralls.io/repos/github/eco/storageslot-example/badge.svg?branch=master)](https://coveralls.io/github/eco/storageslot-example?branch=master)
+[![codecov](https://codecov.io/gh/eco/storageslot-example/branch/master/graph/badge.svg)](https://codecov.io/gh/eco/storageslot-example)
 
 # storageslot-example
 Example of solidity with explicit storage slots
@@ -52,15 +52,15 @@ starting point for discussion and a feasibility study of integrating the new
 syntax in toolchains.
 
 This includes patched and working versions of:
-* [Solidity](https://github.com/BeamNetwork/solidity/tree/storageslot)
-  * [solc-js](https://github.com/BeamNetwork/solc-js/tree/storageslot)
-  * [solidity-antlr4](https://github.com/BeamNetwork/solidity-antlr4/tree/storageslot)
-    * [solhint](https://github.com/BeamNetwork/solhint/tree/storageslot)
-    * [solidity-parser-antlr](https://github.com/BeamNetwork/solidity-parser-antlr/tree/storageslot)
-      * [prettier-plugin-solidity](https://github.com/BeamNetwork/prettier-plugin-solidity/tree/storageslot)
-      * [solidity-coverage](https://github.com/BeamNetwork/solidity-coverage/tree/storageslot)
-  * [solparse](https://github.com/BeamNetwork/solparse/tree/storageslot)
-    * [Ethlint/solium](https://github.com/BeamNetwork/Ethlint/tree/storageslot)
+* [Solidity](https://github.com/eco/solidity/tree/storageslot)
+  * [solc-js](https://github.com/eco/solc-js/tree/storageslot)
+  * [solidity-antlr4](https://github.com/eco/solidity-antlr4/tree/storageslot)
+    * [solhint](https://github.com/eco/solhint/tree/storageslot)
+    * [solidity-parser-antlr](https://github.com/eco/solidity-parser-antlr/tree/storageslot)
+      * [prettier-plugin-solidity](https://github.com/eco/prettier-plugin-solidity/tree/storageslot)
+      * [solidity-coverage](https://github.com/eco/solidity-coverage/tree/storageslot)
+  * [solparse](https://github.com/eco/solparse/tree/storageslot)
+    * [Ethlint/solium](https://github.com/eco/Ethlint/tree/storageslot)
 
 List is shown in practical dependency order, which will drive the order of
 PRs.

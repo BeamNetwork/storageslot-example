@@ -1,5 +1,5 @@
 {
-  "name": "@beamnetwork/storageslot-example",
+  "name": "@eco.com/storageslot-example",
   "version": "1.0.0",
   "description": "Example of using solidity storage slots.",
   "main": "index.js",
@@ -19,20 +19,20 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/BeamNetwork/storageslot-example.git"
+    "url": "git+https://github.com/eco/storageslot-example.git"
   },
   "keywords": [
     "solidity",
     "ethereum"
   ],
-  "author": "Beam Engineering <eng@beam.io>",
+  "author": "Beam Engineering <eng@eco.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BeamNetwork/storageslot-example/issues"
+    "url": "https://github.com/eco/storageslot-example/issues"
   },
-  "homepage": "https://github.com/BeamNetwork/storageslot-example#readme",
+  "homepage": "https://github.com/eco/storageslot-example#readme",
   "devDependencies": {
-    "Ethlint": "BeamNetwork/Ethlint#storageslot",
+    "Ethlint": "eco/Ethlint#storageslot",
     "bn-chai": "^1.0.1",
     "chai": "^4.2.0",
     "codecov": "^3.5.0",
@@ -45,10 +45,10 @@
     "eslint-plugin-mocha": "^5.3.0",
     "istanbul": "^0.4.5",
     "prettier": "^1.18.2",
-    "prettier-plugin-solidity": "BeamNetwork/prettier-plugin-solidity#storageslot",
-    "solc": "github:BeamNetwork/solc-js#storageslot",
-    "solhint": "BeamNetwork/solhint#storageslot",
-    "solidity-coverage": "BeamNetwork/solidity-coverage#storageslot",
+    "prettier-plugin-solidity": "eco/prettier-plugin-solidity#storageslot",
+    "solc": "github:eco/solc-js#storageslot",
+    "solhint": "eco/solhint#storageslot",
+    "solidity-coverage": "eco/solidity-coverage#storageslot",
     "truffle": "^5.0.27"
   },
   "dependencies": {}
